@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrap {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.three-col {
+  width: 33.333%;
+  float: left;
+}
+
+.three-col:after {
+  display: table;
+  clear: both;
+  content: '';
+}
